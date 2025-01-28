@@ -1,0 +1,11 @@
+while (count<10)
+    {
+        cin >> n;
+        count++;
+        if (n == 'A' || n == 'a' && n == 'E' || n == 'e' && n == 'I' || n == 'i' && n == 'O' || n == 'o' && n == 'U' || n == 'u')
+            {
+                total++;
+            }
+    }
+
+cout <<  total << endl;
